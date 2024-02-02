@@ -25,6 +25,7 @@ modules:
   source:
     packages:
     - kde-standard
+    - sddm
 
 - name: example-commands
   type: shell
