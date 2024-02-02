@@ -19,7 +19,7 @@ modules:
   type: apt
   source:
     packages:
-    - vim
+    - kde-standard
 
 - name: example-commands
   type: shell
