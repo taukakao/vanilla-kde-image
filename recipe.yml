@@ -15,6 +15,11 @@ modules:
 
 # Put your custom actions behind this comment
 
+- name: remove-gnome
+  type: shell
+  commands:
+  - apt remove -y gdm3 gnome-session gnome-shell gnome-shell-extensions gnome-browser-connector gjs mutter xdg-desktop-portal-gnome
+
 - name: example-packages
   type: apt
   source:
